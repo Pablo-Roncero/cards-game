@@ -19,7 +19,8 @@ for i in range(player_number):
                 # Al asignar "order" aquí, asignamos el orden en el que jugaran los jugadores. Aunque si luego shuffleamos, serí irrelevante,
                 # porque esos valores se sobreescribirían
             name = Player(name)
-            print(f"Welcome {name}! Added to the list")
+            name.get_Data()
+            #print(f"Welcome {name.get_Data()}! Added to the list")
             break
         else:
             print("That name is taken... Please, choose another one")
