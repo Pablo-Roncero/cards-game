@@ -1,14 +1,20 @@
 class Player:
 
-    def __init__(self,name,rol="Neutral"):
+    def __init__(self,name,role="Neutral",hand=[]):
         self.name = name
-        self.rol = rol
+        self.role = role
+        self.hand = hand
+
+    def get_data(self):
+
+        print(f"Welcome {self.name}! You were added to the list\nYour role in this game is: {self.role}")
+
+    def add_card(self,card):
+
+        self.hand.append(card)
+
+    def role_assignment(self,assigned_role):
+
+        self.role = assigned_role
 
 
-    def get_Data(self):
-
-        print(f"Welcome {self.name}! You were added to the list\nYour role in this game is: {self.rol}")
-
-
-    # def rol_assignment(self,):
-    #    pass
