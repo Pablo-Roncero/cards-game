@@ -18,4 +18,4 @@ El fichero player.py está en proceso de desarrollo. La idea es crear un jugador
 
 **Se han eliminado los archivos prueba.py y card.py**
 
-**Se plantea la idea de incluir en un único archivo todas las clases que se vayan creando, en vez de separar card&deck de payers**
+**Se plantea la idea de incluir en un único archivo todas las clases que se vayan creando, en vez de separar card&deck de players**
