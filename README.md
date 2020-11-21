@@ -16,6 +16,16 @@ En principio card&deck.py definen las clases Card y Deck. La primera crea una ca
 
 El fichero player.py está en proceso de desarrollo. La idea es crear un jugador y representar en esa clase todos los parámetros que se tengan que tener en cuenta para un jugador: nombre, mano, rol (culo, presi...)...
 
-**Se han eliminado los archivos prueba.py y card.py**
+**Se han eliminado los archivos prueba.py y card.py .**
 
-**Se plantea la idea de incluir en un único archivo todas las clases que se vayan creando, en vez de separar card&deck de players**
+**Se plantea la idea de incluir en un único archivo todas las clases que se vayan creando, en vez de separar card&deck de players.**
+
+## Idea
+
+Creo que una buena idea podría ser delimitar lo que escribimos cada uno y añadir la fecha, para así saber que hemos añadido y cuándo.
+
+## Pablo 21 Nov
+
+Lo que he hecho principlamente es arreglar provisionalmente el problema de la asignación de variables a cada jugador. De todas formas, habría que verlo mejor, ya que sigue sin ser óptimo. También he intentado modificar la asignación de cartas a cada jugador, pero creo que hay un problema con los bucles, ya que en ese apartado hay 3, probablemente haya una manera mejor de organizarlo, porque ahora mismo se repiten cartas y no cambia de jugador para repartir las siguientes (esto no sé si podría ser problema de los cambios que he hecho yo al nombrar cada variable de los jugadores).
+
+Dani, mira a ver si puedes ver lo del tema del reparto de cartas, porque con ese código me pierdo un poco y tú lo entiendes mejor ;) .
