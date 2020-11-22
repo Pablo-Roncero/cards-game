@@ -1,13 +1,12 @@
 class Player:
 
-    def __init__(self,name,role="Neutral",hand=[]):
+    def __init__(self,name):
         self.name = name
-        self.role = role
-        self.hand = hand
+        self.role = "Neutral"
+        self.hand = []
 
-    #def data_player(self):
-
-     #   self.name = name 
+    def __str__(self):
+        return self.name
 
     def get_data(self):
 
